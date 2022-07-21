@@ -10,7 +10,7 @@ The Memory-Model-Analyzer program will receive one command line argument to spec
 
 Basic Example:
 
-"""
+```
 // evil global variables
 int evil_glob_var_1;
 float evil_glob_var_2;
@@ -37,11 +37,10 @@ int main(int argc, char** argv)
 
   return 0;
 }
-"""
-
+```
 Result:
 
-"""
+```
 >>> Memory Model Layout <<<
 
 ***  exec // text ***
@@ -82,4 +81,4 @@ Result:
     fun2: 2
     main: 3
 //////////////////////////////
-"""
+```
