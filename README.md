@@ -8,6 +8,8 @@ The Memory-Model-Analyzer programn will display the "cumulative" visualization o
 
 The Memory-Model-Analyzer program will receive one command line argument to specify the file containing the source code to analyze.
 
+Given below is a basic but it has been tested with complex c code with different internal memory allocations like calloc/malloc plus many more variable and data types.
+
 Basic Example:
 
 ```
